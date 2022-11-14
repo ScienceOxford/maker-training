@@ -24,6 +24,7 @@
       <li><a href="#calibration">Choosing power and speed settings</a></li>
       <li><a href="#setup">Setting up the laser cutter</a></li>
       <li><a href="#cutting">Cutting your design</a></li>
+      <li><a href="#saving">Saving files</a></li>
     </ol>
     <br>
   </div>
@@ -31,7 +32,7 @@
   <div id="loading" class="left">
     <h3>Opening your file</h3>
     <p>Save your file onto a USB stick, and plug this into the lasercutter's computer.</p>
-    <p>Do not remove the things plugged in on the left - they control the lasercutter.</p>
+    <p>Do not remove the things plugged in on the left (picture below) - they control the lasercutter.</p>
     <img src=".\images\lasercutter\dont-remove.jpg" alt="photo showing two USB items - one white plug with a lead, and one white dongle with red light" width="400px" height="auto">
     <br>
     <p>Log into the laptop using the Administration user - there is no password.</p>
@@ -39,7 +40,7 @@
     <p>Open the software - Lasercut 5.3 - by clicking the icon on the desktop.</p>
     <img src=".\images\lasercutter\2-software-icon.PNG" alt="Lasercut 5.3 logo" width="200px" height="auto">
     <br>
-    <p>Click 'File' -> 'Import' (or keyboard shortcut Ctrl+I), which should place your design onto the workspace.</p>
+    <p>Click 'File' -> 'Import' (or keyboard shortcut Ctrl+I) and choose your file. This should place your design onto the workspace.</p>
     <img src=".\images\lasercutter\3-import-file.png" alt="Lasercut software screenshot of the File menu, highlighting the Import option. Keyboard shortcut Ctrl+I" width="200px" height="auto">
     <br>
     <p><em>If you get any error messages, or your file doesn't show up on the screen, close the Lasercut software and try again. If you continue to get errors, check your original file for problems.</em></p>
@@ -59,20 +60,63 @@
     <p>This will cause multiple cut options to show on the right-hand-side:</p>
     <img src=".\images\lasercutter\8-after-choosing-colour-options.png" alt="Lasercut software screenshot showing the bottom of the window. Lots of small squares of different colours." width="400px" height="auto">
     <br>
-    <p>You can use the Up and Down buttons to rearrange the order (the laser will action them in order).</p>
-    <p>You can untick the checkbox to stop one from running - this can be helpful when running test cuts, or if you want to do cuts individually.</p>
+    <p>Click on the Mode to change between Cut and Engrave for each colour.</p>
+    <p>You can use the Up and Down buttons to rearrange the order (the laser will action them one at a time).</p>
+    <p>You can also untick the checkbox to stop one from running - this can be helpful when running test cuts, or if you want to do cuts individually.</p>
     <br>
   </div>
 
   <div id="calibration" class="left">
     <h3>Choosing power and speed settings</h3>
-    <p>...</p>
+    <p>It is important to set appropriate power and speed settings for different material types and thicknesses.</p>
+    <p>As a starting point, use the calibration cuts which can be found in the laser cutter room.</p>
+    <img src=".\images\lasercutter\calibration-cuts.jpg" alt="photograph of four pieces of material, with cut lines on them; one wood, two clear acrylic, one mirrored acrylic" width="400px" height="auto">
+    <br>
+    <p>Find one that is as close as possible to your own material, and pick the power and speed settings that are closest to the outcome you want.</p>
+    <p>For example, if I want to cut through a piece of 3mm acrylic, the calibration piece suggests 40% power and 15 speed would cut it neatly.</p>
+    <p>I would test a small piece on my material, then make adjustments if needed (see next section of how to start your cut).</p>
+    <ul>
+      <li>If the material doesn't cut all the way through - decrease the speed or increase the power.</li>
+      <li>If the material cuts through, but has left ragged edges, decrease the power or increase the speed.</li>
+      <li>If you will be cutting a large piece of material, choose a slightly higher power, as the laser cutter does not cut evenly to the edges.</li>
+    </ul>
+    <br>
+    <p>To set the power settings, double click on the layer you want to change, form the menu on the right-hand-side.<p>
+    <h5>To cut, change the Speed and Power, you can leave the rest as the default.</h5>
+    <img src=".\images\lasercutter\10-cut-options.PNG" alt="screenshot of the 'Set cut options' pop-up. Four options are shown, each with an editable box next to it: Speed, Power, Corner power, Overlap" width="400px" height="auto">
+    <br>
+    <h5>To engrave, change the Speed and Power.</h5>
+    <p>You can also edit the scan gap to make a more detailed engraving, try 0.1.</p>
+    <img src=".\images\lasercutter\11-engrave-options.PNG" alt="screenshot of the 'Set cut options' pop-up. Three options are shown, each with an editable box next to it: Speed, Power, scan gap" width="400px" height="auto">
+    <br>
     <br>
   </div>
 
   <div id="setup" class="left">
     <h3>Setting up the laser cutter</h3>
-    <p>...</p>
+    <p>Open the lid of the laser cutter and place your material on the bed - keep it as central as possible (the laser cuts best in the middle), and use the lines on the bed to help line it up.</p>
+    <img src=".\images\lasercutter\position-material-full.jpg" alt="photograph of the laser cutter bed, with a piece of acrylic in the middle" width="400px" height="auto">
+    <br>
+    <p>Turn the laser cutter on, by turning the key on the right.</p>
+    <img src=".\images\lasercutter\turn-on-laser.jpg" alt="photograph of the laser cutter's menu, with a big red button and a key. A hand is turning the key." width="400px" height="auto">
+    <br>
+    <p><strong>The red button is the emergency stop.</strong> If the laser will not turn on, turn this button so that it pops up, and try again.</p>
+    <br>
+    <p>You must calibrate the height of the bed, based on the thickness of your material.</p>
+    <p>Press the Esc button on the laser menu, so that nothing on the screen is highlighted. Then use the arrow keys to move the head of the laser over your material.</p>
+    <p>Find a wooden calibration piece, and rest it on the lip at the top of the laser head.</p>
+    <img src=".\images\lasercutter\check-z-before.jpg" alt="photograph of the laser head, with a wooden calibration piece resting on the lip. The bottom of the wooden piece does not touch the material" width="400px" height="auto">
+    <br>
+    <p>The base of the calibration piece should be flush with the material to be cut. To adjust the bed height, press the Z button on the laser cutter menu (you may need to press Esc first).</p>
+    <p>Once selected, the menu will look like ths:</p>
+    <img src=".\images\lasercutter\laser-z-menu.jpg" alt="photograph of the laser menu, the screen shows 'Z-AXIS OPERATE'" width="400px" height="auto">
+    <br>
+    <p>You can now use the up and down arrows to adjust the bed height.</p>
+    <p>The calibration piece should rest on the lip of the laser head, and also touch the material.</p>
+    <img src=".\images\lasercutter\check-z-after.jpg" alt="photograph of the laser head, with a wooden calibration piece resting on the lip. The bottom of the wooden piece does not touch the material" width="400px" height="auto">
+    <br>
+    <p>Press Z again to return to the basic menu, then use the arrow keys to line the laser head with the edge of your material.</p>
+    <p>Leave at least 5mm of space at the edge, and do not rely on the red dot for placement (it is not perfectly aligned with the laser).</p>
     <br>
   </div>
 
@@ -82,8 +126,17 @@
     <br>
   </div>
 
-  <div id="..." class="left"></div>
-    <a href="http://makeoxford.shoutwiki.com/wiki/Silvertail_A0_Laser_Cutter#Troubleshooting" target="_blank">Troubleshooting</a>
+  <div id="saving" class="left">
+    <h3>Saving files</h3>
+    <p>...</p>
+    <br>
+  </div>
+
+  <div id="troubleshooting" class="left">
+    <h3>Troubleshooting</h3>
+    <p>If you have any problems, check the guide above.</p>
+    <p>Additional troubleshooting tips coming soon.</p>
+    <p>For now, <a href="http://makeoxford.shoutwiki.com/wiki/Silvertail_A0_Laser_Cutter#Troubleshooting" target="_blank">check the wiki</a>.</p>
   </div>
 
   <nav class="links bg_green">
